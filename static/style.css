@@ -21,7 +21,7 @@ h1 {
 
 /* Style the file input button */
 input[type="file"] {
-    display: none; /* Hide the default file input button */
+    /*display: none; /* Hide the default file input button */
 }
 
 label {
