@@ -11,9 +11,7 @@ tf.get_logger().setLevel('ERROR')
 
 model2 = tf.keras.models.load_model('./model/model_final.h5')
 
-class_name = { 0:'Biodegradable:Reuseable Cardboard waste', 1:'Non-Biodegradable:Reuseable glass waste',
-               2:'Non-Biodegradable:Reuseable metal waste', 3:'Biodegradable Organic waste', 
-               4:'Biodegradable:Reuseable Paper waste', 5:'Non-Biodegradable:Reuseable Plastic waste' }
+class_name = { 0:'Biodegradable waste', 1:'Non-Biodegradable waste' }
 
 def get_names(cache):
     return class_name[cache]
